@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Geoloc</string>
+
+    <string name="txtSourceChoisie">Source choisie :</string>
+    <string name="txtLatitude">Latitude :</string>
+    <string name="txtLongitude">Longitude :</string>
+    <string name="txtAltitude">Altitude :</string>
+    <string name="txtBtnChoisirlaSource">1- Choisir la source</string>
+    <string name="txtBtnObtenirPosition">2- Obtenir la position</string>
+    <string name="txtBtnAfficherAdresse">3- Afficher l\'adresse</string>
+    <string name="txtAdresse">Adresse :</string>
+</resources>

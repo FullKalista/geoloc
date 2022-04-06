@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/tailleMarges"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonChoisirSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnChoisirlaSource"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSourceChoisie"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonObtenirPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnObtenirPosition"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtLatitude"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtLongitude"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewAltitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAltitude"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonAfficherAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnAfficherAdresse"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAdresse"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
